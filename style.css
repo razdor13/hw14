@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+.container {
+    background-color: black;
+    top: -70px;
+    position: absolute;
+    margin: 0 auto;
+    width: 1500px;
+    background-image: url("img/777.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+.wrapper {
+    position: relative;
+    width: 1500px;
+    height: 915px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 57px;
+}
+img {
+    object-position: center;
+    width: 200px;
+    border-radius: 25px;
+}
+.number1,
+.number2,
+.number3 {
+    border-radius: 25px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-image: url("img/painted-grey-background-with-metal-texture.jpg");
+}
+button {
+    font-size: 40px;
+    border-color: rgb(234, 187, 0);
+    background: none;
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+    top: 77px;
+    right: 189px;
+    position: absolute;
+}
+.animation {
+    animation: 0.3s linear rotate;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(360deg);
+    }
+}
